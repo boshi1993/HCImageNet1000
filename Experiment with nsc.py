@@ -177,6 +177,8 @@ The second stage is the preparation of dataset and inference
     error_m = torch.zeros([n_runs, len(nsc_list),n_s],device='cpu')
     error_super_m = torch.zeros([n_runs,len(nsc_list),n_s,],device='cpu')
     q=20
+    # start the new  experiment
+    print("hello world")
     for i in range(n_runs):
         print('{}th run'.format(i))
         j = 0
